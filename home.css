@@ -145,8 +145,8 @@ h1{
     color: #FFD993; 
 }
 .iframe{
-    width: auto%;
-    height: auto%;
+    width: auto;
+    height: auto;
 }
 
 /* Fade in tabs */

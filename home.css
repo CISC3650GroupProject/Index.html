@@ -65,7 +65,7 @@ h1{
 }
 
 .topnav .search-container button:hover {
-  background: #ccc;
+  background: #ddd;
 }
 
 @media screen and (max-width: 600px) {
@@ -81,6 +81,6 @@ h1{
     padding: 14px;
   }
   .topnav input[type=text] {
-    border: 1px solid #ccc;  
+    border: 1px solid #ddd;  
   }
 }

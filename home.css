@@ -1,45 +1,5 @@
-div.relative {
-  font-family:verdana;
-  position: relative;
-  left: 30px;
-  width: 700px;
-  border: 3px solid #73AD21;
-} 
 body {
   font-family: Arial;
   padding: 60px;
   background-image:url("artgallery.jpg");
-}
-
-* {
-  box-sizing: border-box;
-}
-
-form.example input[type=text] {
-  padding: 10px;
-  font-size: 17px;
-  border: 1px solid grey;
-  float: left;
-  width: 80%;
-}
-form.example button {
-  float: left;
-  width: 20%;
-  padding: 10px;
-  background: #2196F3;
-  color: white;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none;
-  cursor: pointer;
-}
-
-form.example button:hover {
-  background: #0b7dda;
-}
-
-form.example::after {
-  content: "";
-  clear: both;
-  display: table;
 }

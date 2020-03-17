@@ -133,7 +133,7 @@ h1{
   
 /* Make the image fully responsive */
 .carousel-inner img {
-    width: 100%;
+    width: 50%;
     height: 50%;
 }
 

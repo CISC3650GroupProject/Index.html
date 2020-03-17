@@ -112,20 +112,20 @@ h1{
 /* Left column 2 */
 .leftcolumn2 {
   float: left;
-  width: 50%;
+  width: 25%;
   padding-left: 10px;
 }
 /* Center column */
 .centercolumn {
   float: left;
-  width: 50%;
+  width: 25%;
   padding-left: 10px;
 }
 
 /* Right column */
 .rightcolumn {
   float: right;
-  width: 50%;
+  width: 25%;
   padding-left: 10px;
 }
 

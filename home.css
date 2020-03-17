@@ -106,13 +106,6 @@ h1{
   width: 100%;
 }
 
-/* Fake image */
-.fakeimg {
-  background-color: #DCDCDC;
-  width: 100%;
-  padding: 15px;
-}
-
 /* Add a card effect for articles */
 .card {
   background-color: white;

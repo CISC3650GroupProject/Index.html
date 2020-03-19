@@ -158,7 +158,7 @@ h1{
 }
 /* Right column 3 */
 .rightcolumn3 {
-  float: left;
+  float: right;
   width: 40%;
 }
 

@@ -15,7 +15,7 @@ iframe{
   float: right;
 }
 /* The header size and color*/
-.header{
+h1{
   padding: 30px;
   font-size: 50px;
   color:purple;

@@ -12,7 +12,7 @@ div a {
     text-align: center;
 }
 div p {
-   float: right;
+   text-align: right;
 }
 
 /* The header size and color*/

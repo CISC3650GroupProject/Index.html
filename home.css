@@ -126,6 +126,11 @@ h1{
   width: 25%;
 }
 
+/* Right column */
+.rightcolumn2 {
+  float: right;
+  width: 25%;
+}
 /* Add a card effect for articles */
 .card {
   background-color: white;

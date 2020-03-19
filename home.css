@@ -99,6 +99,9 @@ h1{
   }
 }
 
+
+
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
@@ -115,6 +118,8 @@ h1{
   }
 }
 
+
+
 /* Left column */
 .leftcolumn {   
   width: 100%;
@@ -125,23 +130,42 @@ h1{
   float: left;
   width: 25%;
 }
+/* Left column 3 */
+.leftcolumn3 {
+  float: left;
+  width: 50%;
+}
+
+
+
 /* Center column */
 .centercolumn {
   float: left;
   width: 25%;
 }
 
+
+
 /* Right column */
 .rightcolumn {
   float: right;
   width: 25%;
 }
-
-/* Right column */
+/* Right column 2*/
 .rightcolumn2 {
   float: right;
   width: 25%;
 }
+/* Right column 3 */
+.rightcolumn {
+  float: left;
+  width: 50%;
+}
+
+
+
+
+
 /* Add a card effect for articles */
 .card {
   background-color: white;

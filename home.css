@@ -133,7 +133,7 @@ h1{
 /* Left column 3 */
 .leftcolumn3 {
   float: left;
-  width: 40%;
+  width: 50%;
 }
 
 
@@ -159,7 +159,7 @@ h1{
 /* Right column 3 */
 .rightcolumn3 {
   float: right;
-  width: 40%;
+  width: 50%;
 }
 
 
@@ -172,13 +172,6 @@ h1{
   padding: 20px;
   margin-top: 20px;
 }
-/* Add a card effect for articles */
-.card2 {
-  background-color: white;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
 /* Clear floats after the columns */
 .row:after {
   content: "";

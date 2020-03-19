@@ -131,3 +131,11 @@ iframe{
   display: table;
   clear: both;
 }
+
+/* Centers an image */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

@@ -8,10 +8,8 @@ body {
   background-image:url("artgallery.jpg");
 }
 /* Centers the link */
-a {
+div a {
     text-align: center;
-    display: block;
-    margin: 0 auto;
 }
 
 /* The header size and color*/

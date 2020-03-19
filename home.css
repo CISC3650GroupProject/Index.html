@@ -11,6 +11,9 @@ body {
 div a {
     text-align: center;
 }
+div p {
+   float: left;
+}
 
 /* The header size and color*/
 h1{

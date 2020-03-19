@@ -8,7 +8,7 @@ body {
   background-image:url("artgallery.jpg");
 }
 /* Centers the link */
-div a {
+a {
     text-align: center;
     display: block;
     margin: 0 auto;

@@ -15,10 +15,9 @@ iframe{
   float: right;
 }
 /* The header size and color*/
-h1{
-  padding: 30px;
+.header{
   font-size: 50px;
-  color:purple;
+  color: purple;
 }
 /* Footer */
 .footer {

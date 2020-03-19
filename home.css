@@ -7,8 +7,12 @@ body {
   padding: 60px;
   background-image:url("artgallery.jpg");
 }
-
-
+/* Centers the link */
+div a {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
 
 /* The header size and color*/
 h1{

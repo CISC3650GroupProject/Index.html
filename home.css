@@ -130,7 +130,13 @@ h1{
 .card {
   background-color: white;
   padding: 20px;
-  margin-top: 50px;
+  margin-top: 20px;
+}
+/* Add a card effect for articles */
+.card2 {
+  background-color: white;
+  padding: 20px;
+  margin-top: 10px;
 }
 
 /* Clear floats after the columns */

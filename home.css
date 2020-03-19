@@ -172,6 +172,12 @@ h1{
   padding: 20px;
   margin-top: 20px;
 }
+/* Add a card effect for articles */
+.card2 {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
 
 /* Clear floats after the columns */
 .row:after {

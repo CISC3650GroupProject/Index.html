@@ -117,6 +117,10 @@ iframe{
     width: 100%;
   }
 }
+/* top column */
+.topcolumn{
+  width: 100%;
+}
 
 /* Add a card effect for articles */
 .card {

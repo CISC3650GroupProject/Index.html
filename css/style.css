@@ -5,7 +5,7 @@
 body {
   font-family: Arial;
   padding: 60px;
-  background-image:url("artgallery.jpg");
+  background-image:url("../image/artgallery.jpg");
 }
 /* Centers the link */
 div a {
@@ -119,6 +119,56 @@ iframe{
   }
 }
 
+
+
+/* Left column */
+.leftcolumn {   
+  width: 100%;
+}
+
+/* Left column 2 */
+.leftcolumn2 {
+  float: left;
+  width: 25%;
+}
+/* Left column 3 */
+.leftcolumn3 {
+  float: left;
+  width: 50%;
+   padding-left: 20px;
+}
+
+
+
+/* Center column */
+.centercolumn {
+  float: left;
+  width: 25%;
+}
+
+
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 25%;
+}
+/* Right column 2*/
+.rightcolumn2 {
+  float: right;
+  width: 25%;
+}
+/* Right column 3 */
+.rightcolumn3 {
+  float: right;
+  width: 50%;
+   padding-left: 20px;
+}
+
+
+
+
+
 /* Add a card effect for articles */
 .card {
   background-color: white;
@@ -132,38 +182,42 @@ iframe{
   clear: both;
 }
 
-/* Centers an image */
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+
+
+/* Carousel */
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+  
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 50%;
 }
 
-
-
-/* Buttons */
-a {
-  text-decoration: none;
-  display: inline-block;
-  padding: 50px 50px;
+.carousel-item h3{
+    color: #FFD993; 
 }
 
-a:hover {
-  background-color: white;
-  color: black;
+.carousel-item p{
+    color: #FFD993; 
+}
+.iframe{
+    width: 50%;
+    height: auto;
 }
 
-.previous {
-  background-color: white;
-  color: black;
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
-.next {
-  background-color: Black;
-  color: white;
-}
-
-.round {
-  border-radius: 100%;
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }

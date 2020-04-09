@@ -52,7 +52,13 @@
         <!-- Images used to open the lightbox -->
 <div class="row2">
   <div class="column">
-    <img src="../image/InMyGrandmasWorkshop.jpg" style="width:50%" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    <img src="../image/InMyGrandmasWorkshop.jpg" style="width:50%;max-width:75px" >
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
   </div>
   <div class="column">
     <img src="../image/ANewDirection.jpg" style="width:50%" onclick="openModal();currentSlide(2)" class="hover-shadow">

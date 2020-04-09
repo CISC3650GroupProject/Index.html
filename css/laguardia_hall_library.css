@@ -1,8 +1,8 @@
-.row > .column {
+.row2 > .column {
   padding: 0 8px;
 }
 
-.row:after {
+.row2:after {
   content: "";
   display: table;
   clear: both;

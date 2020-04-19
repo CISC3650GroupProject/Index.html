@@ -26,10 +26,6 @@ iframe{
   margin-top: 20px;
 }
 
-
-
-
-
 /* Navigation bar */
 .topnav {
   overflow: hidden;
@@ -123,6 +119,11 @@ iframe{
 }
 
 /* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
 .card {
   background-color: white;
   padding: 20px;

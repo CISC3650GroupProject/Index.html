@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/directory.css">
   <link rel="icon" href="image/icon/paint_palette.png" type="image/png" sizes="16x16">
+  <script type="text/javascript" src="js/imageMapResizer.js"></script>
 </head>
 <body>
   <div class="header">
@@ -59,10 +60,33 @@
       <div class="card">
         <center><h1>Brooklyn College Map</h1></center>
         <center>
-          <img src="image/bc_map.png" alt="Brooklyn College Map" usemap="#bcmap">
+          <img src="image/bc_map.png" alt="Brooklyn College Map" usemap="#bcmap" width="90%" height="auto">
           <map name="bcmap">
-            <!-- <area shape="rect" coords="x1, y1, x2, y2" href="link" alt="alternative text"> -->
-            <area shape="rect" coords="405, 23, 551, 79" href="directory/william_james_hall.html" alt="William James Hall">
+            <!-- William James Hall -->
+            <area shape="rect" coords="405, 23, 551, 79" href="directory/william_james_hall.html" title="William James Hall">
+            <!-- West Quad -->
+            <area shape="rect" coords="321, 80, 397, 222" href="directory/west_quad.html" alt="West Quad" title="West Quad">
+            <!-- Roosevelt Hall -->
+            <area shape="poly" coords="405,226 , 427,226 , 427,223 , 468,223 , 468,217 , 487,217 , 487,223 , 529,223 , 529,226 , 551,226 , 551,255 , 529,255 , 529,259 , 505,259 , 505,270 , 450,270 , 450,259 , 427,259 , 427,255 , 405,255" href="directory/roosevelt_hall.html" alt="Roosevelt Hall" title="Roosevelt Hall">
+            <!-- Roosevelt Hall Extension -->
+            <area shape="poly" coords="406,260 , 409,260 , 409,256 , 426,256 , 426,259 , 449,259 , 449,271 , 506,271 , 506,260 , 530,260 , 530,256 , 546,256 , 546,261 , 550,261 , 550,304 , 406,304 , 406,261" href="directory/roosevelt_hall_extension.html" alt="Roosevelt Hall Extension" title="Roosevelt Hall Extension">
+            <!-- W.E.B(West End Building) -->
+            <area shape="poly" coords="175,214 , 228,214 , 228,232 , 276,232 , 276,270 , 175,270" href="directory/w.e.b_(west_end_buliding).html" alt="W.E.B(West End Building)" title="W.E.B(West End Building)">
+            <!-- East Quad -->
+            <!-- Boylan Hall -->
+            <area shape="poly" coords="594,23 , 622,23 , 622,57 , 672,57 , 672,24 , 700,24 , 700,57 , 750,57 , 750,24 , 777,24 , 777,102 , 750,102 , 750,85 , 717,85 , 717,89 , 655,89 , 655,85 , 622,85 , 622,102 , 594,102" href="directory/boylan_hall.html" alt="Boylan Hall" title="Boylan Hall">
+            <!-- Ingersoll Hall -->
+            <area shape="poly" coords="595,193 , 622,193 , 622,209 , 654,209 , 654,205 , 717,205 , 717,209 , 750,209 , 750,193 , 778,193 , 778,271 , 595,271" href="directory/ingersoll_hall.html" alt="Ingersoll Hall" title="Ingersoll Hall">
+            <!-- Ingersoll Hall Extension -->
+            <area shape="poly" coords="602,272 , 838,272 , 838,305 , 593,305 , 593,277 , 602,277 , " href="directory/ingersoll_hall_extension.html" alt="Ingersoll Hall Extension" title="Ingersoll Hall Extension">
+            <!-- LaGuardia Hall Library -->
+            <area shape="poly" coords="813,109 , 903,109 , 903,186 , 914,186 , 914,239 , 842,239 , 842,198 , 831,198 , 831,186 , 813,186 , 813,155 , 810,155 , 810,140 , 813,140" href="directory/laguardia_hall_library.html" alt="LaGuardia Hall Library" title="LaGuardia Hall Library">
+            <!-- P.A.C (Performing Arts Center) -->
+            <area shape="poly" coords="974,164 , 974,143 , 987,143 , 997,133 , 984,118 , 1008,95 , 1081,166 , 1058,187 , 1033,164" href="directory/p.a.c_(performing_arts_center).html" alt="P.A.C (Performing Arts Center)" title="P.A.C (Performing Arts Center)">
+            <!-- Whitehead Hall -->
+            <area shape="poly" coords="833,23 , 928,23 , 928,50 , 856,50 , 856,80 , 833,80" href="directory/whitehead_hall.html" alt="Whitehead Hall" title="Whitehead Hall">
+            <!-- Whitman Hall -->
+            <area shape="poly" coords="949,217 , 953,186 , 1044,201 , 1044,229 , 953,244" href="directory/whitman_hall.html" alt="Whitman Hall" title="Whitman Hall">
           </map>
         </center>
       </div>
@@ -86,5 +110,8 @@
     <input class="button"type="button"value="Help" onclick="location.href='info.html'">
   </div>
 
+  <script type="text/javascript">
+      imageMapResize();
+  </script>
 </body>
 </html>

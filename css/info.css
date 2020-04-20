@@ -5,7 +5,7 @@
 body {
   font-family: Arial;
   padding: 60px;
-  background-image:url("artgallery.jpg");
+  background-image:url("../image/artgallery.jpg");
 }
 /* Centers the link */
 div a {

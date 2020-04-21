@@ -2,6 +2,7 @@
 
 Link to website:
 https://cisc3650groupproject.github.io/website/
+
 Link to DIrectory:
 https://cisc3650groupproject.github.io/website/directory/laguardia_hall_library.html
 

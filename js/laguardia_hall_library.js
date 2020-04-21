@@ -41,27 +41,27 @@ function showSlides(n) {
 }
 
 //1st Floor
-// Open the Modal
+// Open the Modal2
 function openModal2() {
   document.getElementById("myModal2").style.display = "block";
 }
 
-// Close the Modal
+// Close the Modal2
 function closeModal2() {
   document.getElementById("myModal2").style.display = "none";
 }
 
 var slideIndex = 1;
-showSlides(slideIndex);
+showSlides2(slideIndex);
 
 // Next/previous controls
 function plusSlides2(n) {
-  showSlides(slideIndex += n);
+  showSlides2(slideIndex += n);
 }
 
 // Thumbnail image controls
 function currentSlide2(n) {
-  showSlides(slideIndex = n);
+  showSlides2(slideIndex = n);
 }
 
 function showSlides2(n) {

@@ -50,6 +50,15 @@
   width: 90%;
   max-width: 1200px;
 }
+/* Modal Content2 */
+.modal-content2 {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
 
 /* The Close Button */
 .close {
@@ -72,7 +81,7 @@
 .mySlides {
   display: none;
 }
-/* Hide the slides by default */
+/* Hide the slides2 by default */
 .mySlides2 {
   display: none;
 }
@@ -119,6 +128,13 @@
 
 /* Caption text */
 .caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+/* Caption text 2 */
+.caption-container2 {
   text-align: center;
   background-color: black;
   padding: 2px 16px;

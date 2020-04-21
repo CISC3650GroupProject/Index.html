@@ -198,15 +198,15 @@ iframe{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 25%;
 }
 
 .carousel-item h3{
-    color: #1E90FF; 
+    color: #FF0000; 
 }
 
 .carousel-item p{
-    color: #1E90FF; 
+    color: #FF0000; 
 }
 .iframe{
     width: 50%;

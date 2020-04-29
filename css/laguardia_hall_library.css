@@ -60,6 +60,11 @@
   display: none;
 }
 
+/* Hide the slides by default */
+.mySlides2 {
+  display: none;
+}
+
 /* Next & previous buttons */
 .prev,
 .next {
@@ -113,6 +118,14 @@ img.demo {
 
 .active,
 .demo:hover {
+  opacity: 1;
+}
+img.demo2 {
+  opacity: 0.6;
+}
+
+.active,
+.demo2:hover {
   opacity: 1;
 }
 

@@ -52,19 +52,19 @@ function closeModal2() {
 }
 
 var slideIndex = 1;
-showSlides(slideIndex);
+showSlides2(slideIndex);
 
 // Next/previous controls
 function plusSlides2(n) {
-  showSlides(slideIndex += n);
+  showSlides2(slideIndex += n);
 }
 
 // Thumbnail image controls
 function currentSlide2(n) {
-  showSlides(slideIndex = n);
+  showSlides2(slideIndex = n);
 }
 
-function showSlides(n) {
+function showSlides2(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides2");
   var dots = document.getElementsByClassName("demo2");

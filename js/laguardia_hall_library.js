@@ -43,19 +43,19 @@ function showSlides(n) {
 //First Floor
 // Open the Modal
 function openModal2() {
-  document.getElementById("myModal").style.display = "block";
+  document.getElementById("myModal2").style.display = "block";
 }
 
 // Close the Modal
 function closeModal2() {
-  document.getElementById("myModal").style.display = "none";
+  document.getElementById("myModal2").style.display = "none";
 }
 
 var slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
-function plusSlides(n) {
+function plusSlides2(n) {
   showSlides(slideIndex += n);
 }
 

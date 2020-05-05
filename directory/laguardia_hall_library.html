@@ -6,14 +6,14 @@
   <title>LaGuardia Hall Library</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/laguardia_hall_library.css">
+  <link rel="stylesheet" href="../css/modal.css">
   <script src="../js/laguardia_hall_library.js"></script>
   <link rel="icon" href="../image/icon/paint_palette.png" type="image/png" sizes="16x16">
 </head>
 
 <body>  
   <div class="header">
-    <h1>Brooklyn College Student Art Directory</h1>
+    <h1>Brooklyn College Art Directory</h1>
   </div>
     
   <!--Navigation bar-->
@@ -46,152 +46,146 @@
         <br>
         <a href="#floor4">4th Floor</a>
       </div>
+    </div>
+  </div>
       <!--Basement-->
-      <div id="basement"class="card">
-        <h2>Basement</h2>
-        
+      <div id="basement" class="card">
+        <h2>Basement</h2>  
         <!-- Images used to open the lightbox -->
-<div class="row2">
-  <div class="column">
-    <img src="../image/InMyGrandmasWorkshop.jpg" style="width:50%" onclick="openModal();currentSlide(1)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="../image/ANewDirection.jpg" style="width:50%" onclick="openModal();currentSlide(2)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="../image/CelestialSpheres.jpg" style="width:50%" onclick="openModal();currentSlide(3)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="../image/FireyFields.jpg" style="width:50%" onclick="openModal();currentSlide(4)" class="hover-shadow">
-  </div>
-</div>
+        <div class="row2">
+          <div class="column">
+            <img src="../image/InMyGrandmasWorkshop.jpg" style="width:50%" onclick="openModal();currentSlide(1)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="../image/ANewDirection.jpg" style="width:50%" onclick="openModal();currentSlide(2)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="../image/CelestialSpheres.jpg" style="width:50%" onclick="openModal();currentSlide(3)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="../image/FireyFields.jpg" style="width:50%" onclick="openModal();currentSlide(4)" class="hover-shadow">
+          </div>
+        </div>
      <!-- The Modal/Lightbox -->
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+            <div class="mySlides" style="background-color:black;">
+              <div class="numbertext">1 / 4</div>
+              <img src="../image/InMyGrandmasWorkshop.jpg" alt="En el taller de mi abuela (In my grandma’s workshop)" style="width:50%" class="center">
+              <h1 style="color:white;"><strong>En el taller de mi abuela (In my grandma’s workshop)</strong></h1>
+              <p style="color:white;" class="demo">
+                <strong>Artist:</strong> Alberto Marcos Bursztyn (American)<br>
+                <strong>Date:</strong> 2016<br>
+                <strong>Medium:</strong> Mixed media<br>
+                <strong>Size:</strong> n/a<br>
+                <strong>Location:</strong> Lower level<br>
+                <strong>Provenance:</strong> The Brooklyn College Library Collection. Gift of Alberto Marcos Bursztyn.
+              </p>
+              <!-- Description -->
+              <p class="demo" style="color:white;"><br><br><br>The Brooklyn College Library Collection. Gift of Alberto Marcos Bursztyn.<br><br>
+              As a child, I often sat on the floor of my abuela Sara’s workshop while she was busy in the kitchen making delicious meals. Her dressmaker’s workshop was her livelihood, but also my playground. Gathering strips of cloth, searching for interesting buttons, hiding under the worktable and pretending to disappear, the workshop invited me to imagine. The piece evokes echoes from that period and celebrates her craft. It honors the strength and creativity of immigrant women who mend, stitch, and keep their families together with found remnants and threads of memory. My grandmother’s family migrated to Argentina in the early 1900’s escaping violent outburst of antisemitism in Ukraine. My mother in-law, a gifted dressmaker born in Poland, survived Nazi labor camps, including Auschwitz-Birkenau by sewing fashionable evening wear for female Nazi guards. Thread spools from her Brooklyn sewing kit form the necklace of this piece.
+              <br><br>
+              The mannequin is covered by strips of maps from every corner of the planet, but each strip tells only a fragment of a story. Only when assembled together, we discern their purpose and aesthetic quality. The belt depicts a seismographic reading of a major earthquake, a reminder of traumas that bind and contain a fragmented past.
+              </p>
+            </div>
 
-    <div class="mySlides" style="background-color:black;">
-      <div class="numbertext">1 / 4</div>
-      <img src="../image/InMyGrandmasWorkshop.jpg" alt="En el taller de mi abuela (In my grandma’s workshop)" style="width:50%" class="center">
-      <p style="text-align:center;color:white" class="demo"><strong>En el taller de mi abuela (In my grandma’s workshop)<br>
-        Artist:</strong> Alberto Marcos Bursztyn (American)<br>
-        <strong>Date:</strong>	2016<br>
-        <strong>Medium:</strong>	Mixed media<br>
-        <strong>Size:</strong>	n/a<br>
-        <strong>Location:</strong>	Lower level<br>
-        <strong>Provenance:</strong>	The Brooklyn College Library Collection. Gift of Alberto Marcos Bursztyn.
-      </p>
-  
-      <p class="demo" style="text-align:center;color:white"><br><br><br>The Brooklyn College Library Collection. Gift of Alberto Marcos Bursztyn.<br><br>
-      As a child, I often sat on the floor of my abuela Sara’s workshop while she was busy in the kitchen making <br>
-      delicious meals. Her dressmaker’s workshop was her livelihood, but also my playground. Gathering strips of cloth, <br>
-      searching for interesting buttons, hiding under the worktable and pretending to disappear, the workshop invited me <br>
-      to imagine. The piece evokes echoes from that period and celebrates her craft. It honors the strength and creativity of <br>
-      immigrant women who mend, stitch, and keep their families together with found remnants and threads of memory. My grandmother’s <br>
-      family migrated to Argentina in the early 1900’s escaping violent outburst of antisemitism in Ukraine. My mother in-law, <br>
-      a gifted dressmaker born in Poland, survived Nazi labor camps, including Auschwitz-Birkenau by sewing fashionable evening <br>
-      wear for female Nazi guards. Thread spools from her Brooklyn sewing kit form the necklace of this piece.<br><br>
+            <div class="mySlides" style="background-color:black;">
+              <div class="numbertext">2 / 4</div>
+              <img src="../image/ANewDirection.jpg" style="width:50%" class="center">
+              <p style="text-align:center;color:white" class="demo"><strong>A New Direction(Marine Forms II)<br>
+                Artist:</strong> Elizabeth Delson (American, 1932-2005)<br>
+                <strong>Date:</strong>	1974<br>
+                <strong>Medium:</strong>	Oil relief, sand on wood panel<br>
+                <strong>Size:</strong>	24" x 30"<br>
+                <strong>Location:</strong>	Lower level<br>
+                <strong>Provenance:</strong>	Gift of Sidney L. Delson. © Artist's Estate
+              </p>
+            
+              <p class="demo" style="text-align:center;color:white"><br><br><br>
+                Gift of Sidney L. Delson. © Artist's Estate<br>
+                Delson was a painter and printmaker whose works reflected her exploration of nature <br>
+                and spiritual moods. Delson described her artistic philosophy this way: "Through painting <br>
+                and graphics I explore images to uncover the dynamic forces behind their appearance: <br>
+                emergence, growth, decay, metamorphosis. I try to capture the process of change in time and space, <br>
+                to crystallize a living moment and convey its vitality." These paintings, completed midway <br>
+                through her career, reflect her unique forms, energy, vibrant color, and light.
+              </p>
+            </div>
 
-      The mannequin is covered by strips of maps from every corner of the planet, but each strip tells only a fragment of <br>
-      a story. Only when assembled together, we discern their purpose and aesthetic quality. The belt depicts a seismographic <br>
-      reading of a major earthquake, a reminder of traumas that bind and contain a fragmented past.</p>
-    </div>
+            <div class="mySlides" style="background-color:black;">
+              <div class="numbertext">3 / 4</div>
+              <img src="../image/CelestialSpheres.jpg" style="width:50%" class="center">
+               <p style="text-align:center;color:white" class="demo"><strong>Celestial Spheres<br>
+                 Artist:</strong> Elizabeth Delson (American, 1932-2005)<br>
+                 <strong>Date:</strong>	1974<br>
+                 <strong>Medium:</strong>	Acrylic relief with gold leaf with built-up center on wood panel<br>
+                 <strong>Size:</strong>	30" round<br>
+                 <strong>Provenance:</strong>	Gift of Sidney L. Delson. © Artist's Estate
+              </p>
+            
+              <p class="demo" style="text-align:center;color:white"><br><br><br>
+                Gift of Sidney L. Delson. © Artist's Estate<br>
+                Delson was a painter and printmaker whose works reflected her exploration of nature <br>
+                and spiritual moods. Delson described her artistic philosophy this way: "Through <br>
+                painting and graphics I explore images to uncover the dynamic forces behind <br>
+                their appearance: emergence, growth, decay, metamorphosis. I try to capture <br>
+                the process of change in time and space, to crystallize a living moment and <br>
+                convey its vitality." These paintings, completed midway through her career, <br>
+                reflect her unique forms, energy, vibrant color, and light.</p>
+            </div>
 
-    <div class="mySlides" style="background-color:black;">
-      <div class="numbertext">2 / 4</div>
-      <img src="../image/ANewDirection.jpg" style="width:50%" class="center">
-      <p style="text-align:center;color:white" class="demo"><strong>A New Direction(Marine Forms II)<br>
-        Artist:</strong> Elizabeth Delson (American, 1932-2005)<br>
-        <strong>Date:</strong>	1974<br>
-        <strong>Medium:</strong>	Oil relief, sand on wood panel<br>
-        <strong>Size:</strong>	24" x 30"<br>
-        <strong>Location:</strong>	Lower level<br>
-        <strong>Provenance:</strong>	Gift of Sidney L. Delson. © Artist's Estate
-      </p>
-    
-      <p class="demo" style="text-align:center;color:white"><br><br><br>
-        Gift of Sidney L. Delson. © Artist's Estate<br>
-        Delson was a painter and printmaker whose works reflected her exploration of nature <br>
-        and spiritual moods. Delson described her artistic philosophy this way: "Through painting <br>
-        and graphics I explore images to uncover the dynamic forces behind their appearance: <br>
-        emergence, growth, decay, metamorphosis. I try to capture the process of change in time and space, <br>
-        to crystallize a living moment and convey its vitality." These paintings, completed midway <br>
-        through her career, reflect her unique forms, energy, vibrant color, and light.</p>
-    </div>
+            <div class="mySlides" style="background-color:black;">
+              <div class="numbertext">4 / 4</div>
+              <img src="../image/FireyFields.jpg" style="width:50%" class="center">
+              <p style="text-align:center;color:white" class="demo"><strong>Fiery Fields<br>
+                 Artist:</strong> Elizabeth Delson (American, 1932-2005)<br>
+                 <strong>Date:</strong>	1968<br>
+                 <strong>Medium:</strong>	Oil on canvas<br>
+                 <strong>Size:</strong>	30" x 30"<br>
+                 <strong>Location:</strong>	Lower level<br>
+                 <strong>Provenance:</strong>	Gift of Sidney L. Delson. © Artist's Estate
+              </p>
+              
+              <p class="demo" style="text-align:center;color:white"><br><br><br>
+                Gift of Sidney L. Delson. © Artist's Estate<br>
+                Delson was a painter and printmaker whose works reflected her exploration of <br>
+                nature and spiritual moods. Delson described her artistic philosophy this way: <br>
+                "Through painting and graphics I explore images to uncover the dynamic forces <br>
+                behind their appearance: emergence, growth, decay, metamorphosis. I try to capture <br>
+                the process of change in time and space, to crystallize a living moment and <br>
+                convey its vitality." These paintings, completed midway through her career, <br>
+                reflect her unique forms, energy, vibrant color, and light.
+              </p>
+            </div>
 
-    <div class="mySlides" style="background-color:black;">
-      <div class="numbertext">3 / 4</div>
-      <img src="../image/CelestialSpheres.jpg" style="width:50%" class="center">
-       <p style="text-align:center;color:white" class="demo"><strong>Celestial Spheres<br>
-         Artist:</strong> Elizabeth Delson (American, 1932-2005)<br>
-         <strong>Date:</strong>	1974<br>
-         <strong>Medium:</strong>	Acrylic relief with gold leaf with built-up center on wood panel<br>
-         <strong>Size:</strong>	30" round<br>
-         <strong>Provenance:</strong>	Gift of Sidney L. Delson. © Artist's Estate
-      </p>
-    
-      <p class="demo" style="text-align:center;color:white"><br><br><br>
-        Gift of Sidney L. Delson. © Artist's Estate<br>
-        Delson was a painter and printmaker whose works reflected her exploration of nature <br>
-        and spiritual moods. Delson described her artistic philosophy this way: "Through <br>
-        painting and graphics I explore images to uncover the dynamic forces behind <br>
-        their appearance: emergence, growth, decay, metamorphosis. I try to capture <br>
-        the process of change in time and space, to crystallize a living moment and <br>
-        convey its vitality." These paintings, completed midway through her career, <br>
-        reflect her unique forms, energy, vibrant color, and light.</p>
-    </div>
-
-    <div class="mySlides" style="background-color:black;">
-      <div class="numbertext">4 / 4</div>
-      <img src="../image/FireyFields.jpg" style="width:50%" class="center">
-      <p style="text-align:center;color:white" class="demo"><strong>Fiery Fields<br>
-         Artist:</strong> Elizabeth Delson (American, 1932-2005)<br>
-         <strong>Date:</strong>	1968<br>
-         <strong>Medium:</strong>	Oil on canvas<br>
-         <strong>Size:</strong>	30" x 30"<br>
-         <strong>Location:</strong>	Lower level<br>
-         <strong>Provenance:</strong>	Gift of Sidney L. Delson. © Artist's Estate
-      </p>
-      
-      <p class="demo" style="text-align:center;color:white"><br><br><br>
-        Gift of Sidney L. Delson. © Artist's Estate<br>
-        Delson was a painter and printmaker whose works reflected her exploration of <br>
-        nature and spiritual moods. Delson described her artistic philosophy this way: <br>
-        "Through painting and graphics I explore images to uncover the dynamic forces <br>
-        behind their appearance: emergence, growth, decay, metamorphosis. I try to capture <br>
-        the process of change in time and space, to crystallize a living moment and <br>
-        convey its vitality." These paintings, completed midway through her career, <br>
-        reflect her unique forms, energy, vibrant color, and light.
-      </p>
-    </div>
-
-    <!-- Next/previous controls -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    
-    </div>
-  </div> 
-</div>
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+          </div>
+        </div> 
+      </div>
       <!--1st Floor-->
       <div id="floor1"class="card">
         <h2>1st Floor</h2>
        <!-- Images used to open the lightbox -->
-<div class="row2">
-  <div class="column">
-    <img src="../image/Wallabout.jpg" style="width:50%" onclick="openModal2();currentSlide2(5)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="../image/Blinded.jpg" style="width:50%" onclick="openModal2();currentSlide2(6)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="../image/EchoingFactors.jpg" style="width:50%" onclick="openModal2();currentSlide2(7)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="../image/DancingCouple.jpg" style="width:50%" onclick="openModal2();currentSlide2(8)" class="hover-shadow">
-  </div>
-</div>
+      <div class="row2">
+        <div class="column">
+          <img src="../image/Wallabout.jpg" style="width:50%" onclick="openModal2();currentSlide2(1)" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img src="../image/Blinded.jpg" style="width:50%" onclick="openModal2();currentSlide2(2)" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img src="../image/EchoingFactors.jpg" style="width:50%" onclick="openModal2();currentSlide2(3)" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img src="../image/DancingCouple.jpg" style="width:50%" onclick="openModal2();currentSlide2(4)" class="hover-shadow">
+        </div>
+      </div>
         
-         <!-- The Modal/Lightbox -->
+      <!-- The Modal/Lightbox -->
 <div id="myModal2" class="modal">
   <span class="close cursor" onclick="closeModal2()">&times;</span>
   <div class="modal-content">
@@ -199,7 +193,7 @@
     <div class="mySlides2" style="background-color:black;">
       <div class="numbertext">1 / 4</div>
       <img src="../image/Wallabout.jpg" alt="Wallabout" style="width:50%" class="center">
-      <p style="text-align:center;color:white" class="demo"><strong>The Wallabout Market<br>
+      <p style="text-align:center;color:white" class="demo2"><strong>The Wallabout Market<br>
         Artist:</strong>R. Adams<br>
         <strong>Date:</strong>	1930s<br>
         <strong>Medium:</strong> Watercolor<br>
@@ -225,7 +219,7 @@
     <div class="mySlides2" style="background-color:black;">
       <div class="numbertext">2 / 4</div>
       <img src="../image/Blinded.jpg" alt="Blinded" style="width:50%" class="center">
-      <p style="text-align:center;color:white" class="demo"><strong>The Blind Leading the Blind<br>
+      <p style="text-align:center;color:white" class="demo2"><strong>The Blind Leading the Blind<br>
         Artist:</strong>	John Arruda (American, b. 1947)<br>
         <strong>Date:</strong>	1993<br>
         <strong>Medium:</strong>	Oil on canvas<br>
@@ -251,7 +245,7 @@
     <div class="mySlides2" style="background-color:black;">
       <div class="numbertext">3 / 4</div>
       <img src="../image/EchoingFactors.jpg" alt="EchoingFactors" style="width:50%" class="center">
-      <p style="text-align:center;color:white" class="demo"><strong>Echoing Factors<br>
+      <p style="text-align:center;color:white" class="demo2"><strong>Echoing Factors<br>
         Artist:</strong>Chakaia Booker (American, b. 1953)<br>
         <strong>Date:</strong>	2004<br>
         <strong>Medium:</strong>	Rubber tires, wood<br>
@@ -277,7 +271,7 @@
         <div class="mySlides2" style="background-color:black;">
       <div class="numbertext">4 / 4</div>
       <img src="../image/DancingCouple.jpg" alt="DancingCouple" style="width:50%" class="center">
-      <p style="text-align:center;color:white" class="demo">Dancing Couple<br>
+      <p style="text-align:center;color:white" class="demo2">Dancing Couple<br>
         Artist:</strong> William Kentridge (South African, b. 1955)<br>
         <strong>Date:</strong>	2003<br>
         <strong>Medium:</strong>	Offset lithograph<br>
@@ -315,117 +309,314 @@
       <div id="floor2"class="card">
         <h2>2nd Floor</h2>
            <!-- Images used to open the lightbox -->
-<div class="row2">
-  <div class="column">
-    <img src="../image/DinahWashington.jpg" style="width:50%" onclick="openModal3();currentSlide3(9)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="../image/BigPaint.jpg" style="width:50%" onclick="openModal3();currentSlide3(10)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="../image/firefighters.jfif" style="width:50%" onclick="openModal3();currentSlide3(11)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="../image/Cones.jpg" style="width:50%" onclick="openModal3();currentSlide3(12)" class="hover-shadow">
-  </div>
-</div>
-     <!-- The Modal/Lightbox -->
-<div id="myModal3" class="modal3">
-  <span class="close cursor" onclick="closeModal3()">&times;</span>
-  <div class="modal-content3">
+      <div class="row2">
+        <div class="column">
+          <img src="../image/DinahWashington.jpg" style="width:50%" onclick="openModal3();currentSlide3(1)" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img src="../image/BigPaint.jpg" style="width:50%" onclick="openModal3();currentSlide3(2)" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img src="../image/firefighters.jfif" style="width:50%" onclick="openModal3();currentSlide3(3)" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img src="../image/Cones.jpg" style="width:50%" onclick="openModal3();currentSlide3(4)" class="hover-shadow">
+        </div>
+      </div>
+           <!-- The Modal/Lightbox -->
+      <div id="myModal3" class="modal">
+        <span class="close cursor" onclick="closeModal3()">&times;</span>
+        <div class="modal-content">
 
-    <div class="mySlides3" style="background-color:black;">
-      <div class="numbertext">1 / 4</div>
-      <img src="../image/DinahWashington.jpg" alt="Dinah Washington" style="width:50%" class="center">
-      <p style="text-align:center;color:white" class="demo"><strong>Dinah Washington<br>
-        Artist:</strong> Archie Rand (American, b.1949)<br>
-        <strong>Date:</strong>		1970<br>
-        <strong>Medium:</strong>	Acrylic and enamel on canvas<br>
-        <strong>Size:</strong>	18" x 72"<br>
-        <strong>Location:</strong>	Second floor<br>
-        <strong>Provenance:</strong>	On loan from artist. © Archie Rand
-      </p>
-      <p class="demo3" style="text-align:center;color:white"><br><br><br>
-        On loan from artist. © Archie Rand
-      </p>
-  </div>
-  
-    <div class="mySlides3" style="background-color:black;">
-      <div class="numbertext">2 / 4</div>
-      <img src="../image/BigPaint.jpg" alt="Wall" style="width:50%" class="center">
-      <p style="text-align:center;color:white" class="demo"><strong>Wall<br>
-        Artist:</strong> Slava Polishchuk (Russian (Immigrated to the United States in 1996), b. 1961)<br>
-        <strong>Date:</strong>		2002<br>
-        <strong>Medium:</strong>	Oil and paper on canvas<br>
-        <strong>Size:</strong>	90" x 448"<br>
-        <strong>Location:</strong>	Second floor<br>
-        <strong>Provenance:</strong>	The Brooklyn College Library Collection. Gift of Slava Polishchuk. © Slava Polishchuk
-      </p>
-      <p class="demo3" style="text-align:center;color:white"><br><br><br>
-      The Brooklyn College Library Collection. Gift of Slava Polishchuk. © Slava Polishchuk<br><br>
-
-      Human suffering and its inevitability has long been a theme in Polishchuk's work. <br>
-      Inspired by Jeremiah's Lament in the Bible, this work has a box-within-a-box motif <br>
-      that echoes the rhythmic and repetitive phrasing of Jeremiah's text. Polishchuk states:<br>
-      "Repetition is similar to the idea of memory, which is essentially an endless repetition <br>
-      of something that once happened . . . all we have in our struggle against time is memory."<br><br>
-
-      An arresting canvas, this mural-like painting combines 10 to 15 coats of paint with <br>
-      Japanese paper, creating innumerable hues of black and white as well as rich and haunting textures.<br>
-      </p>
-  </div>
+          <div class="mySlides3" style="background-color:black;">
+            <div class="numbertext">1 / 4</div>
+            <img src="../image/DinahWashington.jpg" alt="Dinah Washington" style="width:50%" class="center">
+            <p style="text-align:center;color:white" class="demo3"><strong>Dinah Washington<br>
+              Artist:</strong> Archie Rand (American, b.1949)<br>
+              <strong>Date:</strong>		1970<br>
+              <strong>Medium:</strong>	Acrylic and enamel on canvas<br>
+              <strong>Size:</strong>	18" x 72"<br>
+              <strong>Location:</strong>	Second floor<br>
+              <strong>Provenance:</strong>	On loan from artist. © Archie Rand
+            </p>
+            <p class="demo3" style="text-align:center;color:white"><br><br><br>
+              On loan from artist. © Archie Rand
+            </p>
+        </div>
         
-    <div class="mySlides3" style="background-color:black;">
-      <div class="numbertext">3 / 4</div>
-      <img src="../image/firefighters.jfif" alt="FireFighters" style="width:50%" class="center">
-      <p style="text-align:center;color:white" class="demo"><strong>	Gerard Siani and Greg Saucedo<br>
-        Artist:</strong> Doug Schwab<br>
-        <strong>Date:</strong>	2000<br>
-        <strong>Medium:</strong>	Platinum-palladium print<br>
-        <strong>Size:</strong>	18" x 72"<br>
-        <strong>Location:</strong>	Second floor<br>
-        <strong>Provenance:</strong>	On loan from artist. © Doug Schwab
-      </p>
-      <p class="demo3" style="text-align:center;color:white"><br><br><br>
-         On loan from artist. © Doug Schwab
-      </p>
-  </div>
-    <div class="mySlides3" style="background-color:black;">
-      <div class="numbertext">4 / 4</div>
-      <img src="../image/Cones.jpg" alt="Cones" style="width:50%" class="center">
-      <p style="text-align:center;color:white" class="demo"><strong>Cones<br>
-        Artist:</strong> 	A. Dodina, S. Polishchuk (Russian)<br>
-        <strong>Date:</strong>			2003<br>
-        <strong>Medium:</strong>	Oil/mixed media on canvas<br>
-        <strong>Size:</strong>	100" x 116"<br>
-        <strong>Location:</strong>	Second floor<br>
-        <strong>Provenance:</strong>	The Brooklyn College Library Collection. Gift from the artists in honor of Professor Anthony Cucchiara
-      </p>
-      <p class="demo3" style="text-align:center;color:white"><br><br><br>
-        The Brooklyn College Library Collection. Gift from the artists in honor of Professor Anthony Cucchiara<br><br>
+          <div class="mySlides3" style="background-color:black;">
+            <div class="numbertext">2 / 4</div>
+            <img src="../image/BigPaint.jpg" alt="Wall" style="width:50%" class="center">
+            <p style="text-align:center;color:white" class="demo3"><strong>Wall<br>
+              Artist:</strong> Slava Polishchuk (Russian (Immigrated to the United States in 1996), b. 1961)<br>
+              <strong>Date:</strong>		2002<br>
+              <strong>Medium:</strong>	Oil and paper on canvas<br>
+              <strong>Size:</strong>	90" x 448"<br>
+              <strong>Location:</strong>	Second floor<br>
+              <strong>Provenance:</strong>	The Brooklyn College Library Collection. Gift of Slava Polishchuk. © Slava Polishchuk
+            </p>
+            <p class="demo3" style="text-align:center;color:white"><br><br><br>
+            The Brooklyn College Library Collection. Gift of Slava Polishchuk. © Slava Polishchuk<br><br>
 
-        Two artists, in collaboration, have combined these natural shapes, cones and shells. <br>
-        The interconnections, the twists and turns of these shapes with one another, seem to <br>
-        reflect the very essence of human relationships. The scale and interplay of the shapes <br>
-        are enhanced by the use of paper and textiles, which imbue the painting with a rich, <br>
-        powerful texture and feeling.<br>
-      </p>
-  </div>
-           <!-- Next/previous controls -->
-    <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides3(1)">&#10095;</a>
-    
-    </div>
-  </div> 
- </div>
-      <div id="floor3"class="card">
-        <h2>3rd Floor</h2>
-      </div>
-      <div id="floor4"class="card">
-        <h2>4th Floor</h2>
-      </div>
-    </div>
-  </div>
+            Human suffering and its inevitability has long been a theme in Polishchuk's work. <br>
+            Inspired by Jeremiah's Lament in the Bible, this work has a box-within-a-box motif <br>
+            that echoes the rhythmic and repetitive phrasing of Jeremiah's text. Polishchuk states:<br>
+            "Repetition is similar to the idea of memory, which is essentially an endless repetition <br>
+            of something that once happened . . . all we have in our struggle against time is memory."<br><br>
+
+            An arresting canvas, this mural-like painting combines 10 to 15 coats of paint with <br>
+            Japanese paper, creating innumerable hues of black and white as well as rich and haunting textures.<br>
+            </p>
+        </div>
+              
+          <div class="mySlides3" style="background-color:black;">
+            <div class="numbertext">3 / 4</div>
+            <img src="../image/firefighters.jfif" alt="FireFighters" style="width:50%" class="center">
+            <p style="text-align:center;color:white" class="demo3"><strong>	Gerard Siani and Greg Saucedo<br>
+              Artist:</strong> Doug Schwab<br>
+              <strong>Date:</strong>	2000<br>
+              <strong>Medium:</strong>	Platinum-palladium print<br>
+              <strong>Size:</strong>	18" x 72"<br>
+              <strong>Location:</strong>	Second floor<br>
+              <strong>Provenance:</strong>	On loan from artist. © Doug Schwab
+            </p>
+            <p class="demo3" style="text-align:center;color:white"><br><br><br>
+               On loan from artist. © Doug Schwab
+            </p>
+        </div>
+          <div class="mySlides3" style="background-color:black;">
+            <div class="numbertext">4 / 4</div>
+            <img src="../image/Cones.jpg" alt="Cones" style="width:50%" class="center">
+            <p style="text-align:center;color:white" class="demo3"><strong>Cones<br>
+              Artist:</strong> 	A. Dodina, S. Polishchuk (Russian)<br>
+              <strong>Date:</strong>			2003<br>
+              <strong>Medium:</strong>	Oil/mixed media on canvas<br>
+              <strong>Size:</strong>	100" x 116"<br>
+              <strong>Location:</strong>	Second floor<br>
+              <strong>Provenance:</strong>	The Brooklyn College Library Collection. Gift from the artists in honor of Professor Anthony Cucchiara
+            </p>
+            <p class="demo3" style="text-align:center;color:white"><br><br><br>
+              The Brooklyn College Library Collection. Gift from the artists in honor of Professor Anthony Cucchiara<br><br>
+
+              Two artists, in collaboration, have combined these natural shapes, cones and shells. <br>
+              The interconnections, the twists and turns of these shapes with one another, seem to <br>
+              reflect the very essence of human relationships. The scale and interplay of the shapes <br>
+              are enhanced by the use of paper and textiles, which imbue the painting with a rich, <br>
+              powerful texture and feeling.<br>
+            </p>
+        </div>
+                 <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+          
+          </div>
+        </div> 
+       </div>
+            <!-- Third Floor -->
+            <div id="floor3"class="card">
+              <h2>3rd Floor</h2>
+              <div class="row2">
+              <div class="column">
+                <img src="../image/SleepingHead.jpg" style="width:50%" onclick="openModal4();currentSlide4(1)" class="hover-shadow">
+              </div>
+              <div class="column">
+                <img src="../image/RedTowel.jpg" style="width:50%" onclick="openModal4();currentSlide4(2)" class="hover-shadow">
+              </div>
+              <div class="column">
+                <img src="../image/Autumn.jpg" style="width:50%" onclick="openModal4();currentSlide4(3)" class="hover-shadow">
+              </div>
+            </div>
+              <!-- The Modal/Lightbox -->
+              <div id="myModal4" class="modal">
+                <span class="close cursor" onclick="closeModal4()">&times;</span>
+              <!-- Modal Content -->
+                <div class="modal-content">
+                  <!-- First picture -->
+                  <div class="mySlides4" style="background-color:black;">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="../image/SleepingHead.jpg" alt="Sleeping Head" style="width:50%" class="center">
+                    <h1 style="color:white;"><strong>Sleeping Head</strong></h1>
+                    <p style="color:white;" class="demo4">
+                    <strong>Artist: </strong>Joseph Hirsch (American, 1910-1981)<br>
+                    <strong>Date: </strong>1949<br>
+                    <strong>Medium: </strong>Lithograph<br>
+                    <strong>Size: </strong>20 5/8"- 15 3/4"<br>
+                    <strong>Location: </strong>Third floor<br>
+                    <strong>Provenance: </strong>The Brooklyn College Library Collection
+                    </p>
+                    <!-- Description -->
+                    <p class="demo4" style="color:white;">
+                    The Brooklyn College Library Collection
+                    <br><br>
+                    One of Hirsch's strongest images, and one of his rarest prints. This image was drawn directly on the stone in one afternoon, in the Paris studio of Hirsch's printer Gaston Dorfinant.
+                    <br><br>
+                    Hirsch was a painter, iluustrator, muralist and teacher. Social commentary was the backbone of Hirsch's art, especially works depicting civic corruption and racial injustice. His works are in the Metropolitan Museum of Art, the Whitney Museum of American Art, the Smithsonian American Art Museum and many others. Hirsch was a founding member of Artists Equity created to protect the right of visual artists.
+                    </p>
+                  </div>
+                  <!-- Second Picture -->
+                  <div class="mySlides4" style="background-color:black;">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="../image/RedTowel.jpg" alt="Red Towel" style="width:50%" class="center">
+                    <h1 style="color:white;"><strong>Red Towel</strong></h1>
+                    <p style="color:white;" class="demo4">
+                    <strong>Artist: </strong>Graham Nickson (British, b. 1946)<br>
+                    <strong>Date: </strong>1990<br>
+                    <strong>Medium: </strong>Acrylic on canvas<br>
+                    <strong>Size: </strong>37 1/2” x 73 1/2”<br>
+                    <strong>Location: </strong>Third floor<br>
+                    <strong>Provenance: </strong>Brooklyn College Library Collection
+                    </p>
+                    <!-- Description -->
+                    <p class="demo4" style="color:white;">
+                    Brooklyn College Library Collection
+                    <br><br>
+                    A solitary figure holds up a beach towel in a grassy field, under a blazing sun. Nickson intensifies the foreground of this painting with the complimentary colors of green and red, as he purposefully contrasts its vertical and horizontal planes. Subtle details add interest: a blue hue of the sky is repeated in the sunbather’s shadow on the grass, while her taut, muscular body is outlined in darker red on the towel.
+                    <br><br>
+                    The banal action of Nickson’s sunbather is imbued with mystery, as the artist seeks “a vehicle for the human figure in a very particular environment, as a metaphor for a larger range of human experience.”
+                    </p>
+                  </div>
+                  <!-- Third Picture -->
+                  <div class="mySlides4" style="background-color:black;">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="../image/Autumn.jpg" alt="Autumn" style="width:50%" class="center">
+                    <h1 style="color:white;"><strong>Autumn</strong></h1>
+                    <p style="color:white;" class="demo5">
+                    <strong>Artist: </strong>Alfred Russell (American, 1920-2007)<br>
+                    <strong>Date: </strong>1968<br>
+                    <strong>Medium: </strong>Oil on canvas<br>
+                    <strong>Size: </strong>50" x 40"<br>
+                    <strong>Location: </strong>Third floor<br>
+                    <strong>Provenance: </strong>The Brooklyn College Library Collection. © Artist's Estate
+                    </p>
+                    <!-- Description -->
+                    <p class="demo5" style="color:white;">
+                    The Brooklyn College Library Collection. © Artist's Estate
+                    <br><br>
+                    During the 1940's and early 1950's Russell painted in the Abstract Expressionist style, but he later turned to the figure and the classical world. His work was a major force in the re-emergence of figurative painting in America. Russell has said, "My inspiration has always been a nostalgia for some nonexistent golden age. . . . I have always believed that the reality of art is unique . . . that art is the reality underlying the unreality of the everyday world." Russell taught painting at Brooklyn College from 1947 to 1975.
+                    </p>
+                  </div>
+
+                  <!-- Next/previous controls -->
+                  <a class="prev" onclick="plusSlides4(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides4(1)">&#10095;</a>
+
+                </div>
+              </div>
+            </div>
+            <!--4th Floor-->
+            <div id="floor4"class="card">
+              <h2>4th Floor</h2>
+              <!-- Images used to open the lightbox, this is what the user initally sees -->
+              <div class="row2">
+                <div class="column">
+                  <img src="../image/Aspen.jpg" style="width:50%" onclick="openModal5();currentSlide5(1)" class="hover-shadow">
+                </div>
+                <div class="column">
+                  <img src="../image/VegetableFields.jpg" style="width:50%" onclick="openModal5();currentSlide5(2)" class="hover-shadow">
+                </div>
+                <div class="column">
+                  <img src="../image/BirdoftheWoodsorBirdXVII.jpg" style="width:50%" onclick="openModal5();currentSlide5(3)" class="hover-shadow">
+                </div>
+                <div class="column">
+                  <img src="../image/Stabile.jpg" style="width:50%" onclick="openModal5();currentSlide5(4)" class="hover-shadow">
+                </div>
+              </div>
+              <!-- The Modal/Lightbox -->
+              <div id="myModal5" class="modal">
+                <span class="close cursor" onclick="closeModal5()">&times;</span>
+                <!-- Modal Content -->
+                <div class="modal-content">
+                <!-- First picture -->
+                <div class="mySlides5" style="background-color:black;">
+                  <div class="numbertext">1 / 4</div>
+                  <img src="../image/Aspen.jpg" alt="Aspen" style="width:50%" class="center">
+                  <h1 style="color:white;"><strong>Aspen</strong></h1>
+                  <p style="color:white;" class="demo5">
+                    <strong>Artist: </strong>Harold Baumbach (American, 1904-2002)<br>
+                    <strong>Date: </strong>1983<br>
+                    <strong>Medium: </strong>Oil on canvas<br>
+                    <strong>Size: </strong>50" x 28"<br>
+                    <strong>Location: </strong>Fourth floor<br>
+                    <strong>Provenance: </strong>The Brooklyn College Library Collection. Gift of Harold Baumbach. © Artist's Estate
+                  </p>
+                  <!-- Description -->
+                  <p class="demo5" style="color:white;">
+                    The Brooklyn College Library Collection. Gift of Harold Baumbach. © Artist's Estate
+                    <br><br>
+                    This work, which references no specific subject matter, reflects Baumbach's experimentation with abstraction. His use of bold, dissonant colors evokes a dynamic yet mysterious and ambiguous feeling.
+                  </p>
+                </div>
+                <!-- Second Picture -->
+                <div class="mySlides5" style="background-color:black;">
+                  <div class="numbertext">2 / 4</div>
+                  <img src="../image/VegetableFields.jpg" alt="Vegetable Fields" style="width:50%" class="center">
+                  <h1 style="color:white;"><strong>Vegetable Fields</strong></h1>
+                    <p style="color:white;" class="demo5">
+                    <strong>Artist: </strong>Xu Bing (Chinese, b. 1955. Immigrated to US in 1990)<br>
+                    <strong>Date: </strong>1983<br>
+                    <strong>Medium: </strong>Woodcut<br>
+                    <strong>Size: </strong>28" x 36"<br>
+                    <strong>Location: </strong>Fourth floor<br>
+                    <strong>Provenance: </strong>The Brooklyn College Library Collection. Purchased with Dormitory Authority of New York Art Acquisition Funds. © Xu Bing
+                  </p>
+                  <!-- Description -->
+                  <p class="demo5" style="color:white;">
+                    The Brooklyn College Library Collection. Purchased with Dormitory Authority of New York Art Acquisition Funds. © Xu Bing
+                    <br><br>
+                    The Chinese Communist Movement promoted the traditional art of printmaking, especially the woodcut, as a valuable form of communication that could be cheaply produced, easily distributed, and broadly appealing. In 1974, as part of Mao Zedong's "rustification" program, Bing was sent to work in a small farming community. His experience there is reflected in this woodcut, one of his earliest pieces as a printmaker. The work was considered radical at the time because it depicts a personal view of the countryside without any overt political content.
+                  </p>
+                </div>
+                <!-- Third Picture -->
+                <div class="mySlides5" style="background-color:black;">
+                  <div class="numbertext">3 / 4</div>
+                  <img src="../image/BirdoftheWoodsorBirdXVII.jpg" alt="Bird of the Woods or Bird XVII" style="width:50%" class="center">
+                  <h1 style="color:white;"><strong>Bird of the Woods or Bird XVII</strong></h1>
+                  <p style="color:white;" class="demo5">
+                    <strong>Artist: </strong>Georges Braque (French, 1882-1963)<br>
+                    <strong>Date: </strong>1958<br>
+                    <strong>Medium: </strong>Color lithograph<br>
+                    <strong>Size: </strong>19 1/4" x 21 1/8"<br>
+                    <strong>Location: </strong>Fourth floor<br>
+                    <strong>Provenance: </strong>The Brooklyn College Library Collection. © Artists Rights Society (ARS), New York/ADAGP, Paris
+                  </p>
+                  <!-- Description -->
+                  <p class="demo5" style="color:white;">
+                    The Brooklyn College Library Collection. © Artists Rights Society (ARS), New York/ADAGP, Paris
+                    <br><br>
+                    Braque is one the great artists and innovators of the twentieth century. He is especially well known for his invention of Cubism with Picasso. Braque's lifelong interest was the depiction of space and the relationship of objects within it. The art historian John Golding said about Braque's fascination with space, "the birds' trajectories describe and inform it -- the beating of their wings stirs space and renders it tangible." Birds were one of the major themes in Braque's art during the last two decades of his life.
+                  </p>
+                </div>
+                <!-- Fourth Picture -->
+                <div class="mySlides5" style="background-color:black;">
+                  <div class="numbertext">4 / 4</div>
+                  <img src="../image/Stabile.jpg" alt="Stabile" style="width:50%" class="center">
+                  <h1 style="color:white;"><strong>Stabile</strong></h1>
+                  <p style="color:white;" class="demo5">
+                    <strong>Artist: </strong>Alexander Calder (American, 1898-1976)<br>
+                    <strong>Date: </strong>1965<br>
+                    <strong>Medium: </strong>Lithograph<br>
+                    <strong>Size: </strong>25" x 31"<br>
+                    <strong>Location: </strong>Fourth floor<br>
+                    <strong>Provenance: </strong>The Brooklyn College Library Collection. © Calder Foundation, New York; Artists Rights Society (ARS), New York
+                  </p>
+                  <!-- Description -->
+                  <p class="demo5" style="color:white;">
+                    The Brooklyn College Library Collection. © Calder Foundation, New York; Artists Rights Society (ARS), New York
+                    <br><br>
+                    Alexander Calder revolutionized sculpture by making movement one of its main components. His moving sculptures were called "mobiles"--a word coined in 1931 by the artist Marcel Duchamp. Later in his career he created giant open and transparent stationary constructions which were named "stabiles." These works challenged the traditional notions of sculpture as a solid and static. Moreover, Calder's inventive abstract forms and innovative use of nontraditional materials, were very influential in changing the art of sculpture. This lithograph is a study for one of Calder's monumental stabiles. These sculptures have have become public landmarks in many cities around the world.
+                  </p>
+                </div>
+
+                <!-- Next/previous controls -->
+                <a class="prev" onclick="plusSlides5(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides5(1)">&#10095;</a>
+
+                </div>
+              </div>
+            </div>
+
+
+
 
   <!--Card with info 2-->   
   <!--Left Side-->

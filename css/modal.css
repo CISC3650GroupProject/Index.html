@@ -38,30 +38,6 @@
   max-width: 1200px;
 }
 
-
-/* The Modal (background) */
-.modal3 {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: black;
-}
-
-/* Modal Content */
-.modal-content3 {
-  position: relative;
-  background-color: #fefefe;
-  margin: auto;
-  padding: 0;
-  width: 90%;
-  max-width: 1200px;
-}
 /* The Close Button */
 .close {
   color: white;
@@ -84,15 +60,6 @@
   display: none;
 }
 
-/* Hide the slides by default */
-.mySlides2 {
-  display: none;
-}
-
-/* Hide the slides by default */
-.mySlides3 {
-  display: none;
-}
 /* Next & previous buttons */
 .prev,
 .next {
@@ -148,22 +115,7 @@ img.demo {
 .demo:hover {
   opacity: 1;
 }
-img.demo2 {
-  opacity: 0.6;
-}
 
-.active,
-.demo2:hover {
-  opacity: 1;
-}
-img.demo3 {
-  opacity: 0.6;
-}
-
-.active,
-.demo3:hover {
-  opacity: 1;
-}
 img.hover-shadow {
   transition: 0.3s;
 }

@@ -8,5 +8,184 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Please Sign in</h2>
+      <div class="fakeimg" style="height:800px;">
+           
+          <p>Name: <input type="text" onkeyup="this.value = this.value.toUpperCase();"></p>
+          
+          <form>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+  <input type="submit">
+</form>
+
+<form>
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email">
+  <input type="submit">
+</form>
+          <form>
+  <label for="phone">Enter a phone number:</label>
+  <input type="tel" id="phone" name="phone" placeholder="123-4567-8901" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+  <input type="submit">
+</form>
+          <p>Enter age:</p>
+            <div class="slidecontainer">
+  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+  <p>Value: <span id="demo"></span></p>
+</div>
+
+<script>
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+</script>
+
+  
+  
+  
+  <script> 
+            // Function to check Whether both passwords 
+            // is same or not. 
+            function checkPassword(form) { 
+                password1 = form.password1.value; 
+                password2 = form.password2.value; 
+  
+                // If password not entered 
+                if (password1 == '') 
+                    alert ("Please enter Password"); 
+                      
+                // If confirm password not entered 
+                else if (password2 == '') 
+                    alert ("Please enter confirm password"); 
+                      
+                // If Not same return False.     
+                else if (password1 != password2) { 
+                    alert ("\nPassword did not match: Please try again...") 
+                    return false; 
+                } 
+  
+                // If same return True. 
+                else{ 
+                    alert("Password Match!") 
+                    return true; 
+                } 
+            } 
+        </script>
+        <form onSubmit = "return checkPassword(this)"> 
+        <table> 
+            <tr> 
+                <!-- Enter Username -->
+                <td>Username:</td> 
+                <td><input type = text name = username maxlength=8></td> 
+            </tr> 
+            <tr> 
+                <!-- Enter Password. -->
+                <td>Password:</td> 
+                <td><input type = password name = password1 maxlength=8></td> 
+            </tr> 
+            <tr> 
+                <!-- To Confirm Password. -->
+                <td>Confirm Password:</td> 
+                <td><input type = password name = password2 maxlength=8></td> 
+            </tr> 
+            <tr> 
+                <td colspan = 1 align = right> 
+                <input type = submit value = "Submit"></td> 
+            </tr> 
+        </table> 
+        </form> 
+  
+    <form>
+  <label for="quantity">Choose a number:</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="10">
+  <input type="submit">
+</form>
+  
+  
+  
+  
+  
+  
+   <script type="text/javascript" language="javascript">
+    function checkform()
+    {
+        var f = document.forms["theform"].elements;
+        var cansubmit = true;
+
+        for (var i = 0; i < f.length; i++) {
+            if (f[i].value.length == 0) cansubmit = false;
+        }
+
+        if (cansubmit) {
+           document.getElementById('submitbutton').disabled = !cansubmit;
+        }
+    }
+    
+    
+</script> 
+
+<form>
+  <label for="pwd">Enter a safety password incase you forget the first one. One symbol and One capital letter:</label>
+  <input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+  <input type="submit">
+</form>
+
+<p>What type of memes would you like to see?:</p>
+ <select name="MEME">
+    <option value="Rage Memes">Rage Memes</option>
+    <option value="Trending">Trending</option>
+    <option value="Popular">Popular</option>
+    <option value="New Memes">New Memes</option>
+    <option value="Gifs">Gifs</option>
+    </select>
+  <input type="submit">
+  <p>If you do no like memes.Why don't you?:</p>
+  <select name="Reason" multiple>
+    <option value="Boring">Boring</option>
+    <option value="Annoying">Annoying</option>
+    <option value="I don't get it">I don't get it</option>
+    <option value="It's over used">It's over used</option>
+    <option value="Not my thing">Not my thing</option>
+    </select>
+  <input type="submit">
+
+
+<form>
+    <label for="pwd">ReEnter Password again just checking for the 4th time:</label>
+    <input type="text" onKeyup="checkform()" />
+<input id="submitbutton" type="submit" disabled="disabled" value="Submit" />
+</form>
+  
+  
+  <div id="result">
+
+<script>
+// Check browser support
+if (typeof(Storage) !== "undefined") {
+  // Store
+  sessionStorage.setItem("text","submit");
+  // Retrieve
+  document.getElementById("submitbutton").innerHTML = sessionStorage.getItem("text");
+} else {
+  document.getElementById("submitbutton").innerHTML = "Sorry, your browser does not support Web Storage...";
+}
+</script>
+</div>
+  <br><br><br>
+<form action="Home.html" > 
+  <button type="submit" style="float:right">Submit</button>
+</form> 
+      </div>
+    </div>       
+  </div>
+</div>
 </body>
 </html>

@@ -16,8 +16,9 @@ iframe{
 }
 /* The header size and color*/
 .header{
-  font-size: 20px;
-  color: #DC143C;
+  padding: 20px;
+  font-size: 30px;
+  color: #000000;
 }
 /* Footer */
 .footer {

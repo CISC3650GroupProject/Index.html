@@ -12,3 +12,5 @@ https://cisc3650groupproject.github.io/website/directory/laguardia_hall_library.
 [Image Map Resizer code](https://github.com/davidjbradshaw/image-map-resizer)
 
 [Html help](https://www.w3schools.com/)
+
+[Brooklyn College Art Collection](https://library.brooklyn.cuny.edu/library/art/)

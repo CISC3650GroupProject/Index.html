@@ -1,36 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Info</title>
-  <link rel="stylesheet" href="css/info.css">
-  <link rel="icon" href="image/icon/paint_palette.png" type="image/png" sizes="16x16">
-</head>
 
-<body>  
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Links for carousel-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="icon" href="image/icon/paint_palette.png" type="image/png" sizes="16x16">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>  
+</head>
+<body>
+    
   <div class="header">
     <h1>Brooklyn College Art Directory</h1>
-  </div>
-    
+  </div>  
+
   <!--Navigation bar-->
   <div>
-    <div class="topnav">
-      <a href="index.html">Home</a>
-      <a href="directory.html">Directory</a>
-      <a href="info.html">Info</a>
-      <a href="contact.html" style="float:right">Contact</a>
+      <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="directory.html">Directory</a>
+        <a href="info.html">Info</a>
+        <a href="contact.html">Contact</a>
 
-      <!--Search tab in html-->
-      <form class="example" action="/action_page.php" style="float:right;">
-        <input type="text" placeholder="Search.." name="search2">
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </form>
-    </div>
+        <!--Search tab in html-->
+        <form class="example" action="/action_page.php" style="float:right;">
+          <input type="text" placeholder="Search.." name="search2">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
   </div>
       
   <!--Card with info-->    
   <div class="row">
-    <div class="topcolumn">
+    <div class="leftcolumn">
       <div class="card">
         <strong>Below is some info:</strong>
         <br><br>      
@@ -40,21 +49,20 @@
         For further information about the Library's art collection, please contact us the information is at the bottom.</p>
       </div>
     </div>
-  </div>
-
+  </div>   
   <!--Card with info 2-->   
   <!--Left Side-->
   <div class="row">
-     <div class="leftcolumn">
-        <div class="card2">
-          <a href="http://www.brooklyn.cuny.edu/web/home.php">Where To Find Brooklyn College</a>
-          <br><br>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.9735725859246!2d-73.9543016853186!3d40.630464779340876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb060f27c5f71c65e!2sBrooklyn%20College%20Bulldogs!5e0!3m2!1sen!2sus!4v1584648691935!5m2!1sen!2sus" width="400" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-         </div>
-       </div>
+    <div class="leftcolumn3">
+      <div class="card">   
+        <a href="http://www.brooklyn.cuny.edu/web/home.php">Where To Find Brooklyn College</a>
+        <br><br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.9735725859246!2d-73.9543016853186!3d40.630464779340876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb060f27c5f71c65e!2sBrooklyn%20College%20Bulldogs!5e0!3m2!1sen!2sus!4v1584648691935!5m2!1sen!2sus" width="400" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>   
+    </div>
     <!--Right side-->
-    <div class="rightcolumn"> 
-      <div class="card2">   
+    <div class="rightcolumn3">
+      <div class="card">   
         <a href="https://www.brooklyn.cuny.edu/web/academics/schools/socialsciences/departments/library.php">Where To Find Us</a>
         <br><br>
         <img src="image/BrooklynCollegeMap.jpg" alt="Brooklyn College Map" width="400" height="400">
@@ -62,7 +70,6 @@
     </div>
   </div>
 
-  <!--Footer-->
   <div class="footer">
     <p>
       <strong>Contact Information</strong>
@@ -73,11 +80,11 @@
       <br>
       <strong>Phone:</strong> 718.951.5342
       <br>
-      <strong>Fax:</strong> 718.951.4557</p>
-      <br>
+      <strong>Fax:</strong> 718.951.4557
     </p>
+    <br>
     <input class="button"type="button"value="Help" onclick="location.href='info.html'">
- </div>
+  </div>
 
 </body>
 </html>
